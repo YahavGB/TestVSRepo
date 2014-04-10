@@ -16,5 +16,10 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("I'm driving at {0}km/h!", this.Speed);
         }
+
+        public void stop()
+        {
+            Console.WriteLine("Stopped driving.");
+        }
     }
 }
