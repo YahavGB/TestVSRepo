@@ -12,8 +12,10 @@ namespace ConsoleApplication1
         {
             Car c = new Car();
             c.Color = "Red";
+            c.Speed = 25;
 
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("The speed is {0}", c.Speed);
         }
     }
 }

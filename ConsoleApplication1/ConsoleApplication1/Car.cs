@@ -9,5 +9,7 @@ namespace ConsoleApplication1
     class Car
     {
         public string Color { get; set; }
+
+        public int Speed { get; set; }
     }
 }
