@@ -14,6 +14,9 @@ namespace ConsoleApplication1
 
         public string Owner { get; set; }
 
+        public string Company { get; set; }
+
+
         public Car(string color, int speed)
         {
             Color = color;
