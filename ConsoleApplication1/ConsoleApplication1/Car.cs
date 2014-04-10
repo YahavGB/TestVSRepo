@@ -12,9 +12,11 @@ namespace ConsoleApplication1
 
         public int Speed { get; set; }
 
-        public void drive()
+        public Car(string color, int speed)
         {
-            Console.WriteLine("I'm driving at {0}km/h!", this.Speed);
+            Color = color;
+            Speed = speed;
         }
+
     }
 }
