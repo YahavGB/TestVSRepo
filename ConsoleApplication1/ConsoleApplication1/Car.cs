@@ -24,6 +24,7 @@ namespace ConsoleApplication1
 
         public void stop()
         {
+            Speed = 0;
             Console.WriteLine("Stopped driving.");
         }
     }
