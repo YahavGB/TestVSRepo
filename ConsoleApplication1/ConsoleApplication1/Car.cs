@@ -11,5 +11,11 @@ namespace ConsoleApplication1
         public string Color { get; set; }
 
         public int Speed { get; set; }
+
+        public Car(string color, int speed)
+        {
+            Color = color;
+            Speed = speed;
+        }
     }
 }
