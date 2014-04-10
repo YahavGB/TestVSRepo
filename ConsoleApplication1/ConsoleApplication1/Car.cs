@@ -12,6 +12,8 @@ namespace ConsoleApplication1
 
         public int Speed { get; set; }
 
+        public string Owner { get; set; }
+
         public string Company { get; set; }
 
 
